@@ -15,7 +15,7 @@ const data = [
 const ReactCsv = () => {
 	return (
 		<CSVLink data={data} headers={headers}>
-			<button style={{ cursor: 'pointer' }}>Download me</button>
+			<button style={{ cursor: 'pointer' }}>Download CSV</button>
 		</CSVLink>
 	);
 };
