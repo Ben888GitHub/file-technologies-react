@@ -1,4 +1,3 @@
-import { sampleBase64pdf } from '../sampleBase64pdf';
 import reactRoapmap from '../react_roadmap_2023.pdf';
 import ryanStatus from '../Ryan.pdf';
 

@@ -7,7 +7,6 @@ import ReactCsv from './component/ReactCsv';
 import ReactDropzone from './component/ReactDropzone';
 import ReactDropzone2 from './component/ReactDropzone2';
 import ReactPDFRenderer from './component/ReactPDFRenderer';
-import ReactPDFViewer from './component/ReactPDFViewer';
 
 function App() {
 	return (

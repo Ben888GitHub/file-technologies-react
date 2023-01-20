@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Document, Page } from 'react-pdf';
-import Ryan from '../Ryan.pdf';
+
 import { sampleBase64pdf } from '../sampleBase64pdf';
 
 const ReactPDFViewer = () => {

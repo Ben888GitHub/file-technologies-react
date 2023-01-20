@@ -7,8 +7,7 @@ import {
 	PDFViewer,
 	PDFDownloadLink,
 	Link
-} from '@react-pdf/renderer';
-import Ryan from '../Ryan.pdf';
+} from '@react-18-pdf/renderer';
 
 // Create styles
 const styles = StyleSheet.create({

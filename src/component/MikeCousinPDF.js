@@ -6,7 +6,7 @@ const MikeCousinPDF = () => {
 	const [page, setPage] = useState(1);
 	const canvasRef = useRef(null);
 
-	const { pdfDocument, pdfPage } = usePdf({
+	const { pdfDocument } = usePdf({
 		file: ryanStatus,
 		page,
 		canvasRef,

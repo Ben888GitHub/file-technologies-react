@@ -1,4 +1,4 @@
-import { CSVLink, CSVDownload } from 'react-csv';
+import { CSVLink } from 'react-csv';
 
 const headers = [
 	{ label: 'First Name', key: 'firstname' },
