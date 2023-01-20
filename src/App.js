@@ -6,7 +6,6 @@ import OpenPDFNewPage from './component/OpenPDFNewPage';
 import ReactCsv from './component/ReactCsv';
 import ReactDropzone from './component/ReactDropzone';
 import ReactDropzone2 from './component/ReactDropzone2';
-import ReactPDFRenderer from './component/ReactPDFRenderer';
 
 function App() {
 	return (
@@ -27,9 +26,7 @@ function App() {
 			<br />
 			<br />
 			<MikeCousinPDF />
-			<br />
-			<br />
-			<ReactPDFRenderer />
+
 			<br />
 			<br />
 			<ReactDropzone />
