@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import { usePdf } from '@mikecousins/react-pdf';
 import ryanStatus from '../Ryan.pdf';
+import { saveAs } from 'file-saver';
 
 const MikeCousinPDF = () => {
 	const [page, setPage] = useState(1);
@@ -13,9 +14,14 @@ const MikeCousinPDF = () => {
 		willReadFrequently: true
 	});
 
+	const downloadPdf = () => {
+		saveAs(ryanStatus, 'ryan_status.pdf');
+	};
+
 	return (
 		<div>
 			{!pdfDocument && <span>Loading...</span>}
+			<button onClick={downloadPdf}>Download</button>
 			<div>
 				<canvas
 					// willReadFrequently="true"
